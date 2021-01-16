@@ -1,0 +1,30 @@
+body
+{
+    background-color:whitesmoke;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.Formulas
+{
+     background-color: #ffbcd2;
+     text-align: center;
+     /* margin-left: 45%; */
+     font-size: 20px;
+}
+
+.centertext
+{
+    text-align: center;
+}
+
+.RedChars
+{
+    color: rgb(253, 68, 68);
+    font-style: italic;
+}

@@ -1,0 +1,49 @@
+body
+{
+    width: 95%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+ol
+{
+  background-color: #ffa0b1;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+}
+
+ol li
+{
+    margin: 20px;
+    background-color:#eb7373;
+    padding: 10px;
+    counter-increment: counter2;
+    font-size: 15pt;
+}
+
+.custom-marker
+{
+    list-style: none;
+    counter-reset: counter2;
+} 
+
+span{
+    background-color:#c00439;
+    padding: 10px 25px
+}
+
+.custom-marker li text
+{
+    counter-increment: counter2;
+}
+
+.custom-marker li::before
+{
+    content: counter(counter2, decimal)". ";
+    
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color:#eb7373;
+    padding: 10px;
+}

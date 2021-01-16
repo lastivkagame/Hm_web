@@ -1,0 +1,39 @@
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.seasons_li
+{
+    list-style: none;
+    margin-right: 5px;
+}
+
+.seasons_li i
+{
+    margin-right: 5px;
+}
+
+.winter_li li
+{
+    list-style:none;
+    list-style-image: url(../icons/winter_16.png);
+}
+
+.spring_li li
+{
+    list-style:none;
+    list-style-image: url(../icons/spring_16.png);
+}
+
+.summer_li li
+{
+    list-style:none;
+    list-style-image: url(../icons/summer_16.png);
+}
+
+.autumn_li li
+{
+    list-style:none;
+    list-style-image: url(../icons/autumn_16.png);
+}

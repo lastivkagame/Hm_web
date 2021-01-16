@@ -1,0 +1,41 @@
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+dl
+{
+    list-style: none;
+}
+
+.special_dt
+{
+    padding: 10px 10px 10px 50px;
+     color: white;
+     background-color: rgb(15, 102, 102);
+}
+
+
+.special_dd
+{
+    padding: 25px;
+    color: white;
+     background-color: teal;
+     margin: 0;
+     margin-bottom: 20px;
+}
+
+span
+{
+    color:rgb(238, 180, 169);
+}
+
+p
+{
+    font-size: 20px;
+    color: black;
+}
+
+div{
+    background-color: black;
+}

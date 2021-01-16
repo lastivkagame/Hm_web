@@ -1,0 +1,21 @@
+h1
+{
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}
+
+h4
+{
+    text-align: center; 
+    color: rgb(128, 21, 43); 
+    text-transform: uppercase;
+}
+
+body
+{
+ margin: 3%;
+}

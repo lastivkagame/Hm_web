@@ -1,0 +1,129 @@
+body
+{
+    /* background-image: url(../images/elegant_flowers_bouquet_vector_536856.jpg), 
+    url(../images/elegant_flowers_bouquet_vector_536883.jpg);
+    background-size: 30%, 50%; */
+    /* background-image: url(../images/Chicago-5.jpg);
+    background-attachment: scroll;
+    background-position: top-left, center; */
+    /* height: 100vh;
+    background-size: cover; */
+    /* background: url(../images/Chicago-5.jpg) scroll no-repeat 100%; -work*/
+}
+
+.width-img
+{
+    border: 10px dashed greenyellow;/*goldenrod;*/
+    padding: 20px;
+    background-image: url(../images/1\ 5lpiSFo6j5dhrr6Z6RFd8Q.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.first
+{
+    list-style-type:square;
+    list-style-position: outside;
+    color: greenyellow;
+    /* list-style-image: url(../images/twitter.png); */
+}
+
+.second{
+    list-style: upper-roman;
+}
+
+.active
+{
+    color: yellow;
+    background-color: khaki;
+}
+
+.menu
+{
+    list-style: none;
+    max-width: 300px;
+    width: 100%;
+    padding: 0;
+}
+
+.menu li
+{
+    background-color: teal;
+    padding-left: 20px;
+    /* background-color: thistle; */
+    color: white;
+    height: 30px;
+    margin-bottom: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+.menu li:hover
+{
+    cursor: pointer;
+    background-color:aquamarine;
+    color: teal;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.menu li:first-child
+{
+    border-top-right-radius: 30px;
+}
+
+.menu li:last-child
+{
+    border-bottom-left-radius: 30px;
+}
+
+.menu i
+{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+/* 
+.menu li:hover i
+{
+    cursor: pointer;
+    /* color:white; 
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+} */
+
+.custom-marker
+{
+    list-style: none;
+    counter-reset: counter2;
+}
+
+.custom-marker li
+{
+    counter-increment: counter2;
+}
+
+.custom-marker li::before
+{
+    content: counter(counter2, upper-roman)"--";
+    font-weight: bold;
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+.sub_menu
+{
+    list-style: none;
+    display: none;
+}
+
+#sub:hover +.sub_menu
+{
+    display: block;
+}

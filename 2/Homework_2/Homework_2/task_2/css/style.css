@@ -1,0 +1,52 @@
+body
+{
+    width: 95%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.custom-marker
+{
+    list-style: none;
+    list-style-image: url(../icons/unchecked_16.png);
+}
+
+.custom-marker li
+{
+    padding: 7px 0px;
+    margin: 0px;
+}
+
+.ready_task
+{
+    list-style-image: url(../icons/checked_16.png);   
+    list-style: none;
+    text-decoration: line-through;
+    background-color: gray;
+    /* padding: 7px 10px; */
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+.ready_task::before
+{
+    content: url(../icons/checked_16.png); 
+    /* content: none; */
+    color: rgb(255, 255, 255);
+    background-color:gray;
+    padding-left: 0px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+/* .ready_task::before
+{
+    content: counter(counter2, decimal)". ";
+    color: rgb(236, 1, 1);
+    background-color:#eb7373;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 1opx;
+} */

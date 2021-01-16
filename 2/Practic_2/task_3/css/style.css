@@ -1,0 +1,17 @@
+.num1 li
+{
+    list-style: upper-roman;
+    font-weight: bold;
+}
+
+.num2 li
+{
+    list-style: decimal;
+    font-weight: bold;
+}
+
+.num3
+{
+    list-style:lower-latin;
+    font-weight: bold;
+}

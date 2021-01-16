@@ -1,0 +1,70 @@
+/*
+selector{
+    property: value;
+    ...
+    ...
+}
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: orange;
+    
+        font-family: 'Langar';
+        src: url('Langar-Regular.woff2') format('woff2'),
+            url('Langar-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        line-height:normal
+    
+}
+
+header{
+    color: rgb(131, 255, 148);
+}
+
+article header{
+    color: #e7eb19;
+}
+
+p{
+    color: palegreen;
+    font-size: 20px;
+    word-spacing: 5px;
+    text-indent: 5%;
+    font-family: 'Langar', cursive;
+    text-decoration: underline wavy green;
+}
+
+.one{
+color:seagreen;
+}
+
+#main-selection{
+    background-color: seashell;
+}
+
+.shadow{
+    text-shadow: 4px -2px 5 px rgb(0, 0, 0);
+}
+
+h1{
+    /*left | right | justify*/
+    text-align: center;
+    text-shadow: 1px -1px 0px rgb(0, 0, 0),
+    -1px 1px 0px rgb(0, 0, 0),
+    1px -1px 0px rgb(0, 0, 0);
+
+    font-size: 4opx;
+    font-weight: normal;
+    letter-spacing: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline dashed green;
+    /*wavy, dashed, dotted, double, solid,  */
+    
+}
